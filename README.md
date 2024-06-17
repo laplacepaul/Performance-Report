@@ -82,19 +82,24 @@ The slicers created inlude the year and a switch slicer which consists of the Sa
 This is aimed at nmaking the report dynamic and it saves time and efficiency as the performance metrics can be checked either based on sales, gross profit or quantity.
 Instead of having to create a different report for sales, gross profit or quantity individuall, this report brings it all together.
 
-6.  ### Visuals:
-- Combo chart(Stacked Column chart and Line chart) : This shows the monthly breakdown of the YTD value based on the product type.
-  This is then checked agsinst the Gross profit.
+6.  ### Data Modeling: A star schema modeling type was adopted as we have one fact table and 3 dimension tables (product, account and date table)
+
+   ![modeling.jpg](https://github.com/laplacepaul/Performance-Report/blob/main/modeling.jpeg)
+
+
+
+8.  ### Visuals:
+      1.      Combo chart(Stacked Column chart and Line chart) : This shows the monthly breakdown of the YTD value based on the product type.This is then checked agsinst the Gross profit.
     
-- Donut chart: YTD by Product size.
+      2.      Donut chart: YTD by Product size.
    
- - Waterfall chart: This shows the breakdown of the PYTD vs YTD (difference between the YTD & PYTD value) by month and category.
-    
-- Treemap: Top 10 Countries by PYTD vs YTD value.
+      3.      Waterfall chart: This shows the breakdown of the PYTD vs YTD (difference between the YTD & PYTD value) by month and category.
+
+      4.      Treemap: Top 10 Countries by PYTD vs YTD value.
      
-- Scatter chart: %Gross profit against the YTD with respect to the account.
-    
-- Treemap: Bottom 10 Countries by PYTD vs YTD value.
+      5.      Scatter chart: %Gross profit against the YTD with respect to the account.
+
+      6.      Treemap: Bottom 10 Countries by PYTD vs YTD value.
    
   
 
