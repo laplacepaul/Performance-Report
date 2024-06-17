@@ -1,5 +1,4 @@
-![https://github.com/laplacepaul/Performance-Report/blob/main/photo1718567998.jpeg]
-![perf](http://url/to/img.png)
+![perf.jpg](https://github.com/laplacepaul/Performance-Report/blob/main/perf.jpg)
 
 
 # Performance-Report
