@@ -82,7 +82,15 @@ The slicers created inlude the year and a switch slicer which consists of the Sa
 This is aimed at nmaking the report dynamic and it saves time and efficiency as the performance metrics can be checked either based on sales, gross profit or quantity.
 Instead of having to create a different report for sales, gross profit or quantity individuall, this report brings it all together.
 
-6.  ### Data Modeling: A star schema modeling type was adopted as we have one fact table and 3 dimension tables (product, account and date table)
+6.  ### Data Modeling:
+
+    A star schema modeling type was adopted as we have one fact table and 3 dimension tables (product, account and date table)
+
+    Fact table to the account tables has a many(*) to many(*) relationship
+    
+    Fact table to the product table has a 1 to many(*) relationship
+
+    Fact table to the date table has a 1 to many(*) relationship
 
    ![modeling.jpg](https://github.com/laplacepaul/Performance-Report/blob/main/modeling.jpeg)
 
